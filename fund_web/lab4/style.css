@@ -1,0 +1,49 @@
+body{
+    background-color: aliceblue;
+    color: black;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: auto;
+    
+}
+h3{
+    color:#7e6ae0;
+
+}
+#Branco{
+    background-color: aliceblue;
+    color: black;
+    margin-left: 30px;
+    border: 20px;
+
+}
+
+#cinza{
+    border: 35px solid rebeccapurple;
+    background-color: rebeccapurple;
+    
+    
+}
+#brancoo{
+    background-color:white;
+    border: 2px solid black;
+}
+.roxo{
+    color: antiquewhite;
+}
+
+#contatos{
+    margin:0% ;
+    
+
+}
+#quadrado{
+    background-color: rebeccapurple;
+    color:azure;
+    margin-top: 0px;
+    margin-right: 50%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+

@@ -1,0 +1,195 @@
+body {
+    margin: 1%;
+    background-color:white;
+    font-family:FontAwesome;
+    margin: 50px;
+    padding: 0%;
+    }
+header{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    border: 2px solid rgb(101, 101, 101);
+    padding-right:5% ;
+    background-color: rgb(101, 101, 101);
+    height: 80px;
+    align-items: center;
+    margin: 0px 0px;
+    color: white;
+    padding: 5px 15px;
+    
+}
+
+#opcoes{
+    display: flex;
+    flex-direction:row;
+    padding-right: 20px;
+    padding-left: 80px;
+    padding-top: 0px;
+    
+    
+
+}
+.HOMEPAGE{
+    
+    background-color:cornflowerblue; /* Cor de fundo azul, você pode trocar pela cor desejada */
+    color: white; /* Cor do texto dentro do botão */
+    border: none; /* Remove a borda do botão */
+    padding: 5px; /* Espaçamento interno do botão (topo/baixo, esquerda/direita) */
+    text-align: center; /* Alinha o texto no centro */
+    text-decoration: none; /* Remove a sublinhado padrão do link */
+    display: flex; /* Permite ajustar largura e altura */
+    flex-direction: row;
+    font-size:14px;
+    justify-content: space-between;
+    cursor: pointer; /* Muda o cursor para uma mão ao passar sobre o botão */
+}
+.HOMEPAGE:hover {
+        background-color: #2980b9; /* Cor de fundo ao passar o mouse sobre o botão */
+      }
+
+
+.button{
+    background-color:rgb(101, 101, 101); /* Cor de fundo azul, você pode trocar pela cor desejada */
+    color: white; /* Cor do texto dentro do botão */
+    border: none; /* Remove a borda do botão */
+    padding: 5px; /* Espaçamento interno do botão (topo/baixo, esquerda/direita) */
+    text-align:right; /* Alinha o texto no centro */
+    text-decoration: none; /* Remove a sublinhado padrão do link */
+    display: flex; /* Permite ajustar largura e altura */
+    flex-direction: row-reverse;
+    font-size:14px;
+    justify-content: space-between;
+    cursor: pointer;
+
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 0px;
+    
+}
+
+#title{
+    position: initial;
+    margin-top: flex;
+    
+}
+#cinza{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    background-color: rgb(32, 32, 32);
+    align-items: center;
+    line-height: 1px;
+    padding: 50px;
+    margin-bottom: 0;
+
+}
+.ETIAM{
+    padding: 0%;
+    margin-top: 50px;
+    color: white;
+    
+}
+
+
+
+.PROIN{
+    padding-top: 0%;
+    color: white;
+    padding-bottom: 25px;
+}
+.POSUERE{
+    background-color:cornflowerblue; /* Cor de fundo azul, você pode trocar pela cor desejada */
+    color: white; /* Cor do texto dentro do botão */
+    border: none; /* Remove a borda do botão */
+    padding: 15px; /* Espaçamento interno do botão (topo/baixo, esquerda/direita) */
+    text-align: center; /* Alinha o texto no centro */
+    text-decoration: none; /* Remove a sublinhado padrão do link */
+    display: flex; /* Permite ajustar largura e altura */
+    flex-direction: row;
+    font-size:14px;
+    justify-content: space-between;
+    cursor: pointer; 
+}
+.POSUERE:hover {
+    background-color: #2980b9; /* Cor de fundo ao passar o mouse sobre o botão */
+  }
+
+#branco{
+    padding: 5%;
+    color: rgb(101, 101, 101);
+    background-color:white;
+    text-align: center;
+   
+    
+    
+
+}
+.praesent{
+    padding: 0%;
+}
+.donec{
+    padding-top: 0%
+    
+}
+#quadrados{
+    display: flex;
+    flex-direction: row;
+    padding: auto;
+    padding-left: 25%;
+    text-align: center;
+}
+.quadrado {
+    width: 250px; /* Largura do quadrado */
+    height: 200px; /* Altura do quadrado */
+    border: 2px solid rgb(101, 101, 101);
+    display: flex;
+    flex-direction: row;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin: 5px;
+    text-align: center;
+  }
+
+#azul{
+    background-color:cornflowerblue;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
+    
+}
+
+.POSUEREazul{
+    background-color: white;
+    padding: 15px;
+    border: none;
+
+}
+.POSUEREazul:hover{
+    background-color: hsl(204, 57%, 79%);
+}
+
+.POSUEREbranco{
+    background-color:cornflowerblue;
+    padding: 15px;
+    border: none;
+    margin-top: 20px;
+}
+.POSUEREbranco:hover{
+    background-color: #2980b9;
+}
+
+#cinzaescuro{
+    display:block;
+    border: none;
+    padding-right:5% ;
+    background-color: rgb(101, 101, 101);
+    padding-top: 30px;
+    padding-bottom: 20px;
+    align-items: center;
+    margin: 0px 0px;
+    color: white;
+    text-align: center;
+
+}
