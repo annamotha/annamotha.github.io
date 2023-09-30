@@ -1,0 +1,176 @@
+body {
+    margin: 1%;
+    background-color: rgb(0, 33, 45);
+    font-family:Arial, Helvetica, sans-serif;
+    margin:50px;
+    padding: 0%;
+    }
+header{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding-right:5% ;
+    height: 80px;
+    align-items: center;
+    margin: 0px 0px;
+    color: white;
+    padding: 5px 15px;
+    
+}
+strong{
+    color:rgb(0, 157, 224) ;
+}
+head nav{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 500px;
+}
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type: none;
+      
+}
+header a{
+    padding: 10px;
+    margin-right: 40px;
+    color: white;  
+    text-decoration: none;
+    display: flex;
+    flex-direction:row-reverse;
+
+}
+
+main{
+    background-color: white;
+    margin-top: 3%;
+}
+main section.banner{
+    margin-top: 500px;
+    background-image:url(./img/surf.png);
+    background-repeat: no-repeat;
+    background-position: top center ;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    margin: 5% 3%;
+    margin-top: 5%;
+    padding: 10% 0;    
+    color: white;
+}
+main section.banner h1{
+    font-size: xx-large;
+    margin-left: 10%;
+    text-align:left;
+    margin-bottom: 0;
+}
+main section.banner p{
+    font-size:small;
+    margin-top: 0;
+    margin-left: 10%;
+    margin-right: 70%;
+    text-align:left;
+
+}
+main section.portfolio{
+    display: flex;
+    flex-direction: row;
+    margin: 0 2%;
+}
+.box {
+    display:block;
+    background-color: rgb(0, 108, 159); 
+    color: white;   
+    padding: 1% 1%;
+    margin: 10px;
+  }
+
+
+main section button{
+    background-color:rgb(76, 189, 241); /* Cor de fundo azul, você pode trocar pela cor desejada */
+    color: white; /* Cor do texto dentro do botão */
+    border: none; /* Remove a borda do botão */
+    padding: 10px; /* Espaçamento interno do botão (topo/baixo, esquerda/direita) */
+    margin-left: 1px;
+    margin-bottom: 1px;
+    text-align: center; /* Alinha o texto no centro */
+    text-decoration: none; /* Remove a sublinhado padrão do link */
+    display: flex; /* Permite ajustar largura e altura */
+    flex-direction: row;
+    font-size:14px;
+    justify-content: space-between;
+    cursor: pointer; 
+}
+main section button:hover {
+    background-color: #0d3753; /* Cor de fundo ao passar o mouse sobre o botão */
+  }
+
+.testimonials article {
+    display: flex;
+    flex-direction: row;
+    margin-right: 45%;
+    
+}
+
+
+
+article.comments{
+    display: flex;
+    flex-direction: column;
+    margin-right: 60%;
+
+}
+
+.comments blockquote{
+    background-color:rgb(191, 238, 255);
+    margin: 0;
+    margin-right: 50%;
+
+    
+}
+
+
+
+
+
+
+main nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color:  rgb(191, 238, 255);
+}
+main nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    color: white;
+    
+}
+main nav ul a{
+    padding: 10px;
+    margin: 0 20px;
+    text-align: center;
+    color:#0d3753;  
+    text-decoration: none;
+    display: flex;
+    flex-direction:row-reverse;
+
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 500px;
+}
+footer ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 5px 5px; 
+    color: white;
+    
+}
