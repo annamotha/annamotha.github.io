@@ -1,0 +1,75 @@
+/*
+marrom: rbg(34, 19, 1);
+laranja: rgb(215, 77, 40);
+*/
+body {
+    margin:0;
+    text-align: center;
+    
+}
+header, footer {
+    background-color: rgb(34, 19, 1);
+    padding: 50px;
+    color: white;
+}
+header{
+    padding-top: 70px;
+    padding-bottom: 110px;
+}
+header ul, footer ul{
+    display: flex;
+    flex-direction: row;
+}
+header li, footer li{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    text-align: center;
+    color: white;
+}
+.destaque {
+    background-color: rgb(215, 77, 40);
+    margin-top: -30px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+
+
+}
+article section{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+
+}
+.Vivamus{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -5%;
+}
+.Vivamus p{
+    margin-top: -20px;
+}
+
+div a{
+    padding: 7px 15px;
+    background-color: rgb(255, 0, 55) ;
+    color: #fff;
+}
+
+header h1, header p {
+    color: #fff;
+    margin:0;
+    text-align: center;
+}
+header h1 {
+    padding-top: 30px;
+}
+header nav {
+    width: 500px;
+    margin: auto;
+}
+
+footer ul{
+    padding-left: 30%;
+}
