@@ -1,0 +1,22 @@
+#logo{
+    text-align: left;
+}
+#logo h2{
+    margin-top: -30px;
+}
+#cinza{
+    background-color: rgb(168, 179, 167);
+    text-align: left;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+li{
+    text-align: left;
+}
+#cinza h1{
+    color: blue;
+}
