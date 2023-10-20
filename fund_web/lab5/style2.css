@@ -113,8 +113,8 @@ main section button:hover {
 }
 
 .testimonials article{
-    display: block;
-    margin-left: 3% ;
+    display: flex;
+    flex-direction: column;
 }
 .testimonials article .comments_ img{
     width:100px;
