@@ -100,9 +100,9 @@ main section button{
 main section button:hover {
     background-color: #0d3753; /* Cor de fundo ao passar o mouse sobre o botão */
   }
-section.testimonials{
+section .testimonials{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 1% 1%;
     margin: 5px;
 
@@ -112,8 +112,8 @@ section.testimonials{
     display: block;
     margin-left: 3% ;
 }
-.testimonials article.comments_ img{
-    width: 500px;
+.testimonials article .comments_ img{
+    width:min-content;
 }
 .testimonials article.comments_ p{
     display: flex;
