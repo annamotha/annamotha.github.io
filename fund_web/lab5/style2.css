@@ -141,11 +141,9 @@ article.comments{
 }
 
 .comments blockquote{
-    background-color:rgb(191, 238, 255);
-    margin-right: 50%;
-    margin-left: 0%; 
+    background-color:rgb(191, 238, 255); 
     border: 15px solid rgb(191, 238, 255);
-    width: 100px;
+    width: 80rem;
 }
 
 main nav{
