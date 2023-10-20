@@ -124,7 +124,7 @@ main section button:hover {
     display: flex;
     flex-direction: column;
     width: 80%;
-    text-align: center;
+    text-align: left;
 
 
 }
@@ -133,12 +133,9 @@ main section button:hover {
 article .comments{
     display: flex;
     flex-direction: column;
-    width: 50%;
-    height: 60%;
+    width: 20%;
     text-align: left;
-    direction: unset;
-    padding-left: 0%;
-    margin-left: 50%;
+    padding-left: 1%;
 
 }
 
