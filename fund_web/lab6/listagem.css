@@ -1,0 +1,187 @@
+body{
+    background-color: #E6E6F0;
+    margin: -1rem;
+}
+header{
+    background: #8257E5;
+    height: 250px;  
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: 5%;
+}
+header h1{
+    width: 500px;
+    height: 84px;
+    top: 80px;
+    left: 250px;
+    color: #FFFFFF;
+    font-family: Archivo;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 1rem;
+}
+main{
+    margin-top: -6%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+main h2{
+    font-family: Archivo;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+main input{
+    width: 400px;
+    height: 56px;
+    top: 466px;
+    left: 416px;
+    border-radius: 8px;
+    border: 1px;
+    background: linear-gradient(0deg, #FAFAFC, #FAFAFC);
+    border: 1px solid #E6E6F0;
+    animation-timing-function: ease-out;
+    animation-duration: 300ms;
+}
+
+.pesquisar form{
+    display: flex;
+    flex-direction: column;
+    margin-top: -8%;
+    margin-left: 30%;
+    margin-right: 20%;
+    padding: 2rem;
+    padding-left: 4rem;
+    text-align: left;
+    
+}
+
+.pesquisar h2{
+    text-align: left;
+    color: white;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+
+
+.pets{
+    
+    font-family: Poppins;
+    text-align: center;
+    border: solid #E6E6F0;
+    width: 736px;
+    height: 500px;
+    top: 340px;
+    left: 352px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    margin-left: 20%;
+    padding: 2%;
+    margin-top: 1rem;
+
+
+
+
+}
+.cima{
+    display: flex;
+    flex-direction: row;
+}
+.pets img{
+
+    /* avatar-light */
+
+    box-sizing: border-box;
+
+    width: 112px;
+    height: 112px;
+    right: 0px;
+    top: calc(50% - 112px/2);
+
+    background: url(./imagens/golden-retriever-04052023112519685.jpeg);
+    /* stroke-color-light-mode */
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 80px;
+    margin: 2%;
+
+}
+.escrito{
+    display: flex;
+    flex-direction: column;
+    
+}
+.principal{
+    text-align: left;
+
+}
+.principal h2{
+    font-family: Archivo;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 5%;
+    margin-bottom: -5%;
+
+}
+.principal h3{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.baixo p{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3rem;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.baixo a{
+    text-decoration: none;
+    background-color: #8257E5;
+    color: white;
+    border-radius: 5px;
+    padding: 1rem;
+       
+}
+
+.pesquisa form{
+    display: flex;
+    flex-direction: column;
+    margin-top: -8%;
+    margin-left: 30%;
+    margin-right: 20%;
+    padding: 2rem;
+    padding-left: 4rem;
+    text-align: left;
+    margin-bottom: 3rem;
+    
+}
+
+.pesquisa h2{
+    text-align: left;
+    color: white;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+}

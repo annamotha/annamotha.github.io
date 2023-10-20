@@ -1,0 +1,87 @@
+body{
+    background: #8257E5;
+    color: #FFFFFF;
+    font-family: Poppins;
+    padding: 10rem;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+h1{
+    font-family: Poppins;
+    font-size: 100px;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left; 
+}
+
+h2{
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.butao a{
+    text-decoration: none;
+    font-size: 28px;
+    color: white;
+    background-color: #9871F5;
+    top: 570px;
+    left: 161px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 0;
+    padding: 1rem;
+    margin-right: 2rem ;
+
+}
+.footer{
+    width: 500px;
+    height: 104px;
+    top: 576px;
+    left: 180px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    margin-top: -7rem;
+
+
+}
+header .imagem{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    margin-left: 10rem;
+    text-align: center;
+
+    
+    
+}
+
+header .imagem p{
+    margin-left: 10rem;
+}
+.conteiner{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 2vh 1vr 1vr;
+}
+
+.ajuda{
+    border:#8257E5 solid;
+    margin-top: -6rem;
+}
+
+.title .baixo{
+    margin-top: -3.5rem;
+}
+.cima{
+    margin-top: -2rem;
+}
