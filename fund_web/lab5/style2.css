@@ -6,7 +6,7 @@
     }
 header{
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     justify-content: space-between;
     padding-right:5% ;
     height: 60%;
@@ -19,6 +19,7 @@ header{
 strong{
     color:rgb(0, 157, 224) ;
 }
+
 
 header nav ul{
     display: flex;
