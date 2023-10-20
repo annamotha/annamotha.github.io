@@ -1,7 +1,6 @@
 @media screen and (max-width: 800px) {
   body {
     margin: 1%;
-    width: 90%;
     background-color: rgb(0, 33, 45);
     font-family:Arial, Helvetica, sans-serif;
     }
@@ -13,7 +12,7 @@ header{
     height: 60%;
     align-items: center;
     color: white;
-    padding: 5px 0;
+    padding: 5px 10px;
     
 }
 header div{
@@ -104,11 +103,12 @@ main section button{
 main section button:hover {
     background-color: #0d3753; /* Cor de fundo ao passar o mouse sobre o botão */
   }
+
+
+
 .testimonials{
     display: flex;
     flex-direction: column;
-    padding: 1% 1%;
-    margin: 2%;
 
 }
 
@@ -117,23 +117,19 @@ main section button:hover {
     flex-direction: column;
 }
 .testimonials article .comments_ img{
-    width:100px;
-    height: 80px;
+    width: 50px;;
+    height: 40px;
 }
 .testimonials article.comments_ p{
     display: flex;
     flex-direction: column;
-    width: 80%;
     text-align: left;
-
-
 }
 
 
 article .comments{
     display: flex;
     flex-direction: column;
-    width: 20%;
     text-align: left;
     padding-left: 1%;
 
@@ -148,7 +144,6 @@ article .comments{
 main nav{
     display: flex;
     flex-direction: row;
-    width: 100%;
     background-color:  rgb(191, 238, 255);
 }
 main nav ul{
@@ -166,8 +161,8 @@ main nav ul a{
     text-decoration: none;
     display: flex;
     flex-direction:row-reverse;
-    margin-right: 1rem;
-    margin-left: 1rem;
+    margin-right: 1px;
+    margin-left: 1px;
 
 }
 
