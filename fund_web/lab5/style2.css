@@ -116,7 +116,7 @@ section .testimonials{
     margin-left: 3% ;
 }
 .testimonials article .comments_ img{
-    width:min-content;
+    width:50px;
 }
 .testimonials article.comments_ p{
     display: flex;
@@ -167,6 +167,7 @@ main nav ul a{
     text-decoration: none;
     display: flex;
     flex-direction:row-reverse;
+    margin-left: -5rem;
 
 }
 
