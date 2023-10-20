@@ -11,9 +11,8 @@ header{
     padding-right:5% ;
     height: 60%;
     align-items: center;
-    margin: 0px 0px;
     color: white;
-    padding: 5px 10px;
+    padding: 5px 1px;
     
 }
 header div{
@@ -185,6 +184,13 @@ footer ul{
     flex-direction: row;
     list-style-type: none;
     color: white;
+    margin-top: 2rem;
     
+}
+footer ul li a i{
+    color: white;
+    text-decoration: none;
+    padding-left: 2rem;
+
 }
 }
