@@ -122,7 +122,7 @@ main section button:hover {
     margin-bottom: 38rem;
 }
 .testimonials article .comments_ img{
-    width: 100px;
+    width: 100%;
 }
 .testimonials article.comments_ p{
     display: flex;
@@ -131,12 +131,7 @@ main section button:hover {
     text-align: center;
     margin-left: -9rem;
     margin-top: 2%;
-
-
-
 }
-
-
 .comments{
     display: flex;
     flex-direction: column;
@@ -144,9 +139,11 @@ main section button:hover {
     height: 40%;
     text-align: left;
     margin-top: 46rem;
+    margin-left: -200px;
+}
 
-    
-
+.comments h3{
+    margin-left: -360px;
 }
 
 .comments blockquote{
@@ -154,6 +151,10 @@ main section button:hover {
     border: 15px solid rgb(191, 238, 255);
     width: 13rem;
     height: 15rem;
+    margin-left: -420px;
+}
+.comments p{
+    margin-left: -430px;
 }
 
 main nav{
