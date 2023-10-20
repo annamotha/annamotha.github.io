@@ -1,7 +1,7 @@
 @media screen and (max-width: 800px) {
   body {
     margin: 1%;
-    max-width: max-content;
+    width: 90%;
     background-color: rgb(0, 33, 45);
     font-family:Arial, Helvetica, sans-serif;
     }
