@@ -104,11 +104,12 @@ main section button:hover {
     background-color: #0d3753; /* Cor de fundo ao passar o mouse sobre o botão */
   }
 
-
-
+  
 .testimonials{
     display: flex;
     flex-direction: column;
+    padding: 1% 1%;
+    margin: 2%;
 
 }
 
@@ -117,19 +118,23 @@ main section button:hover {
     flex-direction: column;
 }
 .testimonials article .comments_ img{
-    width: 50px;;
-    height: 40px;
+    width:100px;
+    height: 80px;
 }
 .testimonials article.comments_ p{
     display: flex;
     flex-direction: column;
+    width: 80%;
     text-align: left;
+
+
 }
 
 
 article .comments{
     display: flex;
     flex-direction: column;
+    width: 20%;
     text-align: left;
     padding-left: 1%;
 
