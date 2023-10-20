@@ -144,6 +144,7 @@ article .comments{
 main nav{
     display: flex;
     flex-direction: row;
+    width: 100%;
     background-color:  rgb(191, 238, 255);
 }
 main nav ul{
