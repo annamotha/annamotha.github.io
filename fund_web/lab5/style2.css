@@ -12,12 +12,12 @@ header{
     height: 60%;
     align-items: center;
     color: white;
-    padding: 5px 1px;
+    padding: 5px 0;
     
 }
 header div{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 strong{
     color:rgb(0, 157, 224) ;
@@ -107,7 +107,7 @@ section .testimonials{
     display: flex;
     flex-direction: column;
     padding: 1% 1%;
-    margin: 5px;
+    margin: 2%;
 
 }
 
@@ -120,10 +120,8 @@ section .testimonials{
 }
 .testimonials article.comments_ p{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     text-align: left;
-    margin: -70% 85%;
-    padding: 1% 29%;
     text-align: center;
 
 
