@@ -119,12 +119,14 @@ section.testimonials{
     text-align: left;
     margin-left: 10%;
     margin-top: -24%;
-    padding: 1% 29%;
+    padding: 0% 31%;
     text-align: center;
 
 }
 
-
+.comments{
+    margin-right: 10rem;
+}
 article .comments{
     display: flex;
     flex-direction: column;

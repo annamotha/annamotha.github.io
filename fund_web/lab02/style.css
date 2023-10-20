@@ -1,0 +1,183 @@
+* {
+    font-family: poppinsregular;
+}
+
+:root{
+    --color-primary: #979595;
+    --color-black: black;
+    --color-white: white; 
+}
+
+
+.cabe{
+    display: flex;
+  }
+
+
+  .sacola{
+    margin-top: 30px;
+    margin-left: 400px;
+    margin-right: 30px;
+  }
+
+
+.opcoes{
+    display: inline-block;
+    margin-left: 500px;
+    margin-bottom: 30px;
+}
+
+.pri{
+    margin-right: 10px;
+}
+
+.sec{
+    margin-right: 10px;
+}
+
+.ter{
+    margin-right: 10px;
+}
+
+.qua{
+    margin-right: 10px;
+}
+
+.qui{
+    margin-right: 10px;
+}
+  
+  .busca{
+    background-color: var(--color-primary);
+    max-width: 300px;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    height: 103px;
+  }
+
+  .busc{
+    margin-left: 10px;
+    line-height: 40px;
+  }
+
+
+  .section-departamentos{
+    display: flex;
+}
+
+.container-destaque img{
+    margin-left: 10px;
+    margin-top: -110px;
+}
+
+input{
+    border-radius: 15px;
+    margin-left: 5px;
+}
+  
+  .dep{
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 10px;
+  }
+
+  .menu-departamentos{
+    background-color: var(--color-primary);
+    max-width: 300px;
+    text-transform: uppercase;
+    margin-bottom: 120px;
+  }
+
+  .button{ 
+    background-color: var(--color-white);
+    color: var(--color-black);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 7px 0px;
+    display: flex;
+    font-size: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    width: 300px;
+}
+
+  .container{
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+  .container-destaque{
+    margin-top: -50px;
+    margin-left: 150px;
+  }
+
+  .container-paineis{
+    display: flex;
+    margin-left: 150px;
+  }
+
+  .painel-novidades{
+    background-color: #ffbbe2;
+    width: 500px;
+  }
+
+  .painel-novidades img{
+    max-width: 50px;
+}
+
+figure{
+    display: inline-block;
+    margin-left: -20px
+}
+
+figcaption{
+    font-size: 15px;
+    width: 120px;
+}
+
+.painel-novidades button{
+    margin-left: 350px;
+    margin-bottom: 10px;
+    
+}
+
+
+
+.painel-mais-vendidos{
+    background-color: #e88cfa;
+    width: 500px;
+    margin-left: 10px;
+  }
+
+  .painel-mais-vendidos img{
+    max-width: 50px;
+  }
+
+figcaption{
+    font-size: 15px;
+    width: 120px;
+
+    color: var(--color-black);
+    text-decoration: none;
+}
+
+.painel-mais-vendidos button{
+    margin-left: 350px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+footer{
+    background-color: black;
+    margin-top: 10px;
+}
+
+footer img{
+    margin-top: 10px;
+}
+
+footer ul{
+    margin-left: 700px;
+}

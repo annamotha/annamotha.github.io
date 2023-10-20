@@ -43,6 +43,7 @@ header a{
 main{
     background-color: white;
     border: 1px solid white;
+    width: 100%;
 }
 main section.banner{
     margin-top: 250px;
@@ -122,7 +123,8 @@ main section button:hover {
     margin-bottom: 38rem;
 }
 .testimonials article .comments_ img{
-    width: 100%;
+    width: 50%;
+    height: 50%;
 }
 .testimonials article.comments_ p{
     display: flex;
