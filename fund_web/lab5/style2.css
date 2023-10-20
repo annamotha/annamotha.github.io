@@ -110,40 +110,50 @@ main section button:hover {
     flex-direction: column;
     padding: 1% 1%;
     margin: 2%;
-
+    height: 80rem;
 }
 
 .testimonials article{
     display: flex;
     flex-direction: column;
+
+}
+.comments_{
+    margin-bottom: 38rem;
 }
 .testimonials article .comments_ img{
-    width:100px;
-    height: 80px;
+    width: 100px;
 }
 .testimonials article.comments_ p{
     display: flex;
     flex-direction: column;
     width: 80%;
-    text-align: left;
+    text-align: center;
+    margin-left: -9rem;
+    margin-top: 2%;
+
 
 
 }
 
 
-article .comments{
+.comments{
     display: flex;
     flex-direction: column;
-    width: 20%;
+    width: 50%;
+    height: 40%;
     text-align: left;
-    padding-left: 1%;
+    margin-top: 46rem;
+
+    
 
 }
 
 .comments blockquote{
     background-color:rgb(191, 238, 255); 
     border: 15px solid rgb(191, 238, 255);
-    width: 80rem;
+    width: 13rem;
+    height: 15rem;
 }
 
 main nav{
