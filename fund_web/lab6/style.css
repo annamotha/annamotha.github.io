@@ -135,6 +135,7 @@ header .imagem p{
         flex-direction: row;
         width: 105%;
         margin-top: -10rem;
+        border:none;
 
     }
     header .imagem{
