@@ -133,9 +133,9 @@ header .imagem p{
     .footer{   
         display: flex;
         flex-direction: row;
-        width: 105%;
+        width: 115%;
         margin-top: -10rem;
-        border:none;
+
 
     }
     header .imagem{
