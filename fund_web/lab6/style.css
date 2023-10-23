@@ -85,3 +85,98 @@ header .imagem p{
 .cima{
     margin-top: -2rem;
 }
+@media screen and (max-width: 800px) {
+
+    body{
+        background: #8257E5;
+        color: #FFFFFF;
+        font-family: Poppins;
+        padding: 1rem;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        
+    }
+    h1{
+        font-family: Poppins;
+        font-size: 100px;
+        font-weight: 600;
+        line-height: 46px;
+        letter-spacing: 0em;
+        text-align: left; 
+    }
+    
+    h2{
+        font-family: Poppins;
+        font-size: 25px;
+        font-weight: 300;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    
+    .butao a{
+        text-decoration: none;
+        font-size: 28px;
+        color: white;
+        background-color: #9871F5;;
+        border-radius: 8px;
+        text-align: center;
+        padding: 1rem;
+        margin-right: 1rem ;
+        margin-left: 1rem;
+    
+    }
+    .footer{   
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-top: -10rem;
+    }
+    header .imagem{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-left: -2%;
+        margin-top: -5%;
+        
+    }
+    header .imagem img{
+        padding: 8%;
+    }
+    header .imagem p{
+        text-align: center;
+        margin-top: 10rem;
+        margin: 1rem;
+    }
+    .conteiner{
+        display: flex;
+        flex-direction: column;
+        border:#8257E5 solid;
+    }
+    
+    .ajuda{
+        border:#8257E5 solid;
+        margin-top: -6rem;
+    }
+    
+    .title .baixo{
+        margin-top: -4.5rem;
+    }
+    .cima{
+        margin-top: -2rem;
+    }
+
+
+
+
+
+
+
+
+
+}
+
