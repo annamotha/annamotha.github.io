@@ -6,10 +6,8 @@ body{
 
 header{
     background: #8257E5;
-    height: 250px;  
-    padding-left: 40%;
-    padding-right: 40%;
-    padding-top: 5%;
+    height: auto;  
+    padding: 5% 40%;
     text-align: center;
     
 }
@@ -176,11 +174,13 @@ main .adocao option{
     top: 1602px;
     left: 353px;
     border-radius: 0px, 0px, 8px, 8px;
-    padding: 1rem;
-    
-    
-
 }
+.footer .Importante{
+    display: flex;
+    flex-direction: row;
+    
+}
+
 .footer a{
     text-decoration: none;
     background: #04D361;
@@ -393,4 +393,87 @@ section h2{
 .visita option{
     font-family: Archivo;
     color: #9C98A6;
+}
+
+@media screen and (max-width: 800px) {
+    body{
+        background-color: #8257E5 ;
+        width: auto;
+        height: auto;
+        margin-left: -10rem;
+    }
+        
+    header{
+        width: auto;
+        padding: 5%;
+        padding-left: 10rem;
+    }
+    header h1{
+        font-size: 25px;
+        width: auto;
+        line-height: normal;
+    }
+
+    header h3{
+        width: auto;
+        
+    }
+
+    footer, main{
+        width: auto;
+        height: auto;
+        margin-left: 35%;
+        margin-right: 5%;
+        padding: 2rem;
+
+    }
+    footer input, main input{
+        width: 15rem;
+        height: 2rem;
+
+    }
+
+    .conta a{
+        font-family: Archivo;
+        color: #9C98A6;
+        
+    }
+    .conta hr{
+        border:#d1ceda 1px solid ;
+
+    }
+    .conta button{
+        margin-top: 2rem;
+        width: 15rem;
+        height: 2rem;
+
+    }
+    
+    .footer{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        padding: -1rem;
+        text-align: left;
+    }
+    .footer a{
+        width: auto;
+        height: auto;
+        
+        margin-left: auto;
+        padding-left: auto;
+        margin-top: 2rem;
+        
+    }
+
+    .footer img{
+        width: 24px;
+        height: 24px;
+       
+    }
+    .Importante{
+        display: flex;
+        flex-direction: row;
+       
+   
 }
