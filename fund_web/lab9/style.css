@@ -1,0 +1,29 @@
+/* Adapte o estilo conforme necessário */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    height: 100vh;
+  }
+  
+  #ficha{
+    background-color: #fff;
+    border-radius: 4px;
+    
+    
+    
+  }
+  .quadrado{
+    border: solid rebeccapurple;
+  }
+  img{
+    border: solid red;
+    width:5rem;
+    height:5rem;
+  }
+  
