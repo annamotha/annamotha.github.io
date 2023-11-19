@@ -4,15 +4,19 @@ function preencherFicha(filme) {
     document.getElementById('ficha').innerHTML += `
         <div class="quadrado">
             <img src="${filme.figura}" alt="${filme.titulo}">
-            <h2>${filme.titulo}</h2>
-            <p><strong>Resumo:</strong> ${filme.resumo}</p>
-            <p><strong>Gêneros:</strong> ${filme.generos.join(', ')}</p>
-            <p><strong>Classificação Etária:</strong> ${filme.classificacao}</p>
-            <p><strong>Elenco:</strong> ${filme.elenco.join(', ')}</p>
-            <p><strong>Opiniões:</strong></p>
-            <ul>
-                ${filme.opinioes.map(opiniao => `<li>${opiniao.rating} - ${opiniao.descricao}</li>`).join('')}
-            </ul>
+            <div class="obs">
+              <span class="star" id="estrela">&star;&star;&star;&star;&star;</span>    
+                <div class="estrela">
+                  <h2>${filme.titulo}</h2>  
+                  <p><strong></strong> ${filme.generos.join(', ')}</p>
+                  <p><strong></strong> ${filme.classificacao}</p>
+                  <p><strong>Elenco: </strong> ${filme.elenco.join(', ')}</p>
+                  <h3><strong></strong> ${filme.resumo}</h3>
+                  <ul>
+                      ${filme.opinioes.map(opiniao => `<li>${opiniao.rating} - ${opiniao.descricao}</li>`).join('')}
+                  </ul>
+              </div>
+          </div>
         </div>
     `;
   }
@@ -33,4 +37,7 @@ function preencherFicha(filme) {
   
   const url = 'https://rafaelescalfoni.github.io/desenv_web/filmes.json';
   carregarDadosDaURL(url);
-  
+
+  function preencherEstrela(){
+
+  }

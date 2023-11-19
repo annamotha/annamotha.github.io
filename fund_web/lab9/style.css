@@ -1,29 +1,92 @@
-/* Adapte o estilo conforme necessário */
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f2f2f2;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    margin-left: 5rem;
-    margin-top: 5rem;
-    height: 100vh;
-  }
+body{
+  background-color: #c3d0d9;
+  font-family: 'Fira Sans', sans-serif;
+  display: grid;
   
-  #ficha{
-    background-color: #fff;
-    border-radius: 4px;
-    
-    
-    
-  }
-  .quadrado{
-    border: solid rebeccapurple;
-  }
-  img{
-    border: solid red;
-    width:5rem;
-    height:5rem;
-  }
+}
+#ficha{
+  display:grid;
+  grid-template-columns: 2fr 3fr;
+  margin-left: 20rem;
+}
+h1{
+  text-align: center;
+  font-size:3rem;
+}
+h2{
+  font-size: 1.5rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+.quadrado{
+  display: flex;
+  border-radius: 1rem;
+  background-color: white;
+  width: 38rem;
+  height: 22rem;
+  margin-top: 30px;
+
+}
+.estrela{
+  margin-top: -4rem;
+}
+img{
+    width:7rem;
+    height:7rem;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+p{
+  margin-left: 0rem;
+  text-align: center;
+  margin-top: -1rem;
+}
+.obs{
+  display: flex;
+  flex-direction: column;
+}
+
+h3{
+  margin-left: -8rem;
+  text-align: center;
+  font-size: medium;
+}
+
+h4{
+  font-size: 1rem;
+  margin-top: -5rem;
+  margin-left: 5rem;
+  
+}
+ul{
+  margin-left: -8rem;
+  text-decoration: none;
+  
+}
+li{
+  text-decoration: none;
+}
+.star{
+  font-size: 2rem;
+  color:  #c3d0d9;
+  margin-left: 20rem;
+  margin-top: 1rem;
+}
+
+/*
+
+
+
+.similares img{
+    max-width: 40px;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+
+
+
+*/
   
