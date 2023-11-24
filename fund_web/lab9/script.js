@@ -41,3 +41,5 @@ function preencherFicha(filme) {
   function preencherEstrela(){
 
   }
+
+ 

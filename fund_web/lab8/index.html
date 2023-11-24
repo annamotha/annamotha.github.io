@@ -229,7 +229,7 @@
             this.altura = altura
         }
         function media(quantidade,total){
-            let media = total/quantidade;
+            return total/quantidade;
         }
 	
         let pessoaList = [];
@@ -239,10 +239,8 @@
             let sexo = document.getElementById("q1_sexo").value;
             let alturaImput = document.getElementById("q1_altura");
 			let altura = parseFloat(alturaImput.value);
-			
 
-			
-            let pessoa = new Pessoa(sexo, altura)
+			let pessoa = new Pessoa(sexo, altura)
             pessoaList.push(pessoa);
 
 			let quantidadeM = 0;
@@ -285,46 +283,31 @@
 
 		let resposta2 = () => {
 			let posicao = document.getElementById("q2_inteiro").value;
-			let numero = 1;
-			
-			
-			// todos numero primo
-			
-				for(let i=0; i<200; i++ ){
+			let numero = 2; 
 
-					if (numero <= 1) {
-						continue; // Números menores ou iguais a 1 não são primos
+			// Encontrar os números primos
+			for (let i = 0; i < 200; ) {
+				let ehPrimo = true;
+
+				for (let j = 2; j <= Math.sqrt(numero); j++) {
+					if (numero % j === 0) {
+						ehPrimo = false; 
 					}
-
-					// Verifica se o número é divisível por algum número de 2 até a raiz quadrada do próprio número
-					for (let i = 2; i <= Math.sqrt(numero); i++) {
-						if (numero % i === 0) {
-							continue; // Se for divisível, não é primo
-						}
-					}
-
-					numerosPrimos[i] = numero; // Se não foi divisível por nenhum número, é primo
-					numero ++;
-					console.log(numerosPrimos);
 				}
 
-				console.log(numerosPrimos[posicao])
+				if (ehPrimo) {
+					numerosPrimos[i] = numero; 
+					i++;
+				}
 
-			
-			
-			
+				numero++;
+			}
 
-			// qual numero primo nessa posicao
-			console.log(numerosPrimos[posicao]);
-						
-			
+			console.log(numerosPrimos[posicao ]);
+			document.getElementById("q2_resposta").innerHTML = `<p>${numerosPrimos[posicao - 1]}</p>`;
+		};
 
-
-			document.getElementById("q2_resposta").innerHTML = `<p>${numerosPrimos[posicao]}</p>`;
-			
-	
-			
-		}
+		
 		let lista = [];
 		let elementos = 0;
 
@@ -356,42 +339,25 @@
 
 		let resposta3_ordena_asc = () => {
 			// resposta da questão 3 - ordenação ascendente aqui.
-
+			lista.sort();
+			const ulNomes = document.querySelector("#q3_lista");
+			ulNomes.innerHTML = "";
 			
-
-			for (let i=0; i< elementos; i++){
-				if(lista[i] > lista[i+1]){
-					let aux = lista[i];
-					lista[i] = lista[i+1];
-					lista[i+1] = aux;
-				}
-
-			}
-
-			for (let i=0; i< elementos; i++){
-				console.log(lista[i]);
-				
-			}
-
-			
+			lista.forEach((nome) => {
+				ulNomes.innerHTML += `<li>${nome}</li>`;
+			});
+							
 		}
 
 		let resposta3_ordena_desc = () => {
 			// resposta da questão 3 - ordenação descendente aqui.
-
-			for (let i=0; i< elementos; i++){
-				if(lista[i] < lista[i+1]){
-					let aux = lista[i];
-					lista[i] = lista[i+1];
-					lista[i+1] = aux;
-				}
-
-			}
-
-			for (let i=0; i< elementos; i++){
-				console.log(lista[i]);
-				
-			}
+			lista.sort((a, b) => b.localeCompare(a));
+			const ulNomes = document.querySelector("#q3_lista");
+			ulNomes.innerHTML = "";
+			lista.forEach((nome) => {
+				ulNomes.innerHTML += `<li>${nome}</li>`;
+			
+			});
 
 			
 		}
