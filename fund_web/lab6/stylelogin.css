@@ -406,6 +406,7 @@ section h2{
         width: auto;
         height: auto;
         margin-left: -10rem;
+        overflow-x: hidden;
     }
         
     header{
