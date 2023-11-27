@@ -1,6 +1,7 @@
 body{
     background-color: #E6E6F0;
     margin: -1rem;
+    overflow-x: hidden;
 }
 header{
     background: #8257E5;
@@ -73,40 +74,19 @@ main input{
 }
 
 
-.pets{
-    
-    font-family: Poppins;
-    text-align: center;
-    border: solid #E6E6F0;
-    width: 736px;
-    height: 500px;
-    top: 340px;
-    left: 352px;
-    border-radius: 8px;
-    background-color: #FFFFFF;
-    margin-left: 20%;
-    padding: 2%;
-    margin-top: 1rem;
 
 
 
-
-}
 .cima{
     display: flex;
     flex-direction: row;
 }
 .pets img{
-
-    /* avatar-light */
-
     box-sizing: border-box;
-
     width: 112px;
     height: 112px;
     right: 0px;
     top: calc(50% - 112px/2);
-
     background: url(./imagens/golden-retriever-04052023112519685.jpeg);
     /* stroke-color-light-mode */
     border: 2px solid rgba(0, 0, 0, 0.5);
@@ -132,6 +112,7 @@ main input{
     text-align: left;
     padding-top: 5%;
     margin-bottom: -5%;
+    color: black;
 
 }
 .principal h3{
@@ -154,13 +135,19 @@ main input{
     text-align: left;
 
 }
-.baixo a{
+.baixo button{
+    border: none;
+}
+.baixo button a{
     text-decoration: none;
     background-color: #8257E5;
     color: white;
     border-radius: 5px;
-    padding: 1rem;
-       
+    padding: 1rem;  
+}
+.baixo button :hover{
+  background: #FFFFFF;
+  color: #8257E5;
 }
 
 .pesquisa form{
@@ -185,3 +172,84 @@ main input{
     line-height: 24px;
     letter-spacing: 0em;
 }
+/*------------------------------*/
+
+  .carousel-container {
+    position: relative;
+    overflow: hidden;
+    font-family: Poppins;
+    text-align: center;
+    border: solid #E6E6F0;
+    width: 736px;
+    height: 550px;
+    border-radius: 18px;
+    background-color: #FFFFFF;
+    margin-top: 1rem;
+    margin-left: -9rem;
+
+  }
+  
+  .carousel-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform-style: preserve-3d;
+  }
+  
+  .carousel-slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    transform: translateZ(0);
+  }
+  
+  .prev-btn,
+  .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 2rem;
+    border-radius:  20rem;
+    background-color: #afafaf;
+    color:#8257E5;
+    border: none;
+    cursor: pointer;
+    font-size: x-large;
+  }
+  
+  .prev-btn {
+    left: 28%;
+    
+    
+  }
+  
+  .next-btn {
+    right: 22%;
+  }
+
+  .prev-btn:hover,
+.next-btn:hover {
+  background-color:#8257E5;
+  color: #FFFFFF;
+}
+  
+  #searchBtn{
+    text-align: left;
+    color: rgb(83, 78, 78);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    border-radius: 8px;
+    border: none;
+    margin-left: 0.5rem;
+  }
+  .search-container{
+    display: flex;
+    flex-direction: row;
+  }
+/*-------------------------------------------------*/
+  
+ 

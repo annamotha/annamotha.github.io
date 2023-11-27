@@ -2,6 +2,7 @@ body{
     background-color: #E6E6F0;
     font-family: Poppins;
     margin: -1rem;
+    overflow-x: hidden;
 }
 
 header{
@@ -198,8 +199,7 @@ main .adocao option{
     margin-left: 17rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    padding-top: 2%;
-    
+    padding-top: 2%; 
 }
 
 .footer img{
@@ -221,6 +221,11 @@ main .adocao option{
     animation-timing-function: ease-out;
     animation-duration: 300ms;
 }
+
+.conta button :hover {
+    color: #8257E5;
+  }
+
 .conta a{
     text-decoration: none;
     color: black;
@@ -448,6 +453,7 @@ section h2{
         height: 2rem;
 
     }
+    
     
     .footer{
         display: flex;

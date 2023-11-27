@@ -42,6 +42,10 @@ h2{
     margin-right: 2rem ;
 
 }
+.butao :hover {
+  background-color:#ffffff;
+  color: #8257E5;
+}
 .footer{
     width: 500px;
     height: 104px;
