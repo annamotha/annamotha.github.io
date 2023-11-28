@@ -260,16 +260,27 @@ main input{
   }
   header{
     height: 250px;  
-    padding-left: 5%;
+    padding-left: 4%;
     padding-top: 5%;
   }
+    
   main{
-    margin-top: -20%;
+    margin-top: -40%;
+    margin-left: 2%;
+  }
+  .carousel-container {
+    width: 350px;
+    height: 1000px;
+
+  }
+  .search-container{
+    margin-left: -150%;
   }
   
   .prev-btn,
   .next-btn {
-    font-size:medium;
+    font-size:xx-small;
+    
   }
 
   .prev-btn {
