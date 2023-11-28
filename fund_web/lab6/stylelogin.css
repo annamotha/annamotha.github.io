@@ -178,7 +178,10 @@ main .adocao option{
     flex-direction: row;
     
 }
-
+fieldset{
+    border: none;
+    margin-left: -1rem;
+}
 .footer a{
     text-decoration: none;
     background: #04D361;
