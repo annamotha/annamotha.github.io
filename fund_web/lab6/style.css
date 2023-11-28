@@ -75,7 +75,7 @@ header .imagem p{
 .conteiner{
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 2fr -2fr ;
+    grid-template-rows: 4fr 0fr ;
 }
 
 .ajuda{
@@ -96,6 +96,7 @@ header .imagem p{
         color: #FFFFFF;
         font-family: Poppins;
         padding: 1rem;
+        margin-left: -1rem;
     }
     header{
         display: flex;
