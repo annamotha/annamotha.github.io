@@ -127,7 +127,11 @@ section h2{
         margin-left: -10rem;
         overflow-x: hidden;
     }
-        
+
+    section{
+        width: 290px;
+        height: 750px;
+    }
     header{
         width: auto;
         padding: 5%;
@@ -135,11 +139,21 @@ section h2{
         margin-left: 2rem;
     }
     header h1{
-        font-size: 25px;
+        font-size: 35px;
         width: auto;
         line-height: normal;
     }
 
-
-
+    section input{
+        width: 300px;
+        height: 56px;   
+    
+    }
+    
+    .segunda {
+        width: 2px;
+        
+    }
+    
+ 
 }

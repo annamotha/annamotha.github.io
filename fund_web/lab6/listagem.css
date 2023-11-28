@@ -10,19 +10,18 @@ header{
     padding-right: 40%;
     padding-top: 5%;
 }
-header h1{
-    width: 500px;
-    height: 84px;
-    top: 80px;
-    left: 250px;
-    color: #FFFFFF;
-    font-family: Archivo;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 42px;
-    letter-spacing: 0em;
-    text-align: left;
-    margin-left: 1rem;
+header h2{
+  width: 500px;
+  height: 84px;
+  top: 80px;
+  left: 250px;
+  color: #FFFFFF;
+  font-family: Archivo;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left; 
 }
 main{
     margin-top: -6%;
@@ -259,14 +258,14 @@ main input{
     overflow-x: hidden;
   }
   header{
-    height: 250px;  
-    padding-left: 15%;
-    padding-top: 5%;
+    margin-left: -9rem;
   }
-    
+  
+  
+
   main{
-    margin-top: -40%;
-    margin-left: 2%;
+    margin-top: -45%;
+    margin-left: -17%;
   }
   .carousel-container {
     margin-left: -4.5rem;
@@ -276,15 +275,16 @@ main input{
   }
   .search-container{
     margin-left: -45%;
+    
   }
   
   .prev-btn,
   .next-btn {
     font-size:xx-small;
-    height: 63rem;
-    width: 0.5rem;
-    margin-top: 26rem;
-    border-radius: 18px;
+    height: 3rem;
+    width: 0.1rem;
+    margin-top: 16.5rem;
+    border-radius: 38px;
     
     
   }
@@ -296,7 +296,7 @@ main input{
   }
 
   .next-btn {
-    right: -36.5%;
+    right:0.5%
   }
 
 }
