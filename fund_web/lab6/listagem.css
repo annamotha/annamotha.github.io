@@ -281,11 +281,16 @@ main input{
   .prev-btn,
   .next-btn {
     font-size:xx-small;
+    height: 63rem;
+    width: 0.5rem;
+    margin-top: 26rem;
+    border-radius: 18px;
+    
     
   }
 
   .prev-btn {
-    left: 1%;
+    left: 0.5%;
     
     
   }

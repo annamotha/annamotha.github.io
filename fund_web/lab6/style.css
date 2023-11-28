@@ -75,7 +75,7 @@ header .imagem p{
 .conteiner{
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 2vh 1vr 1vr;
+    grid-template-rows: 2fr -2fr ;
 }
 
 .ajuda{
