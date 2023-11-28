@@ -260,7 +260,7 @@ main input{
   }
   header{
     height: 250px;  
-    padding-left: 4%;
+    padding-left: 15%;
     padding-top: 5%;
   }
     
@@ -269,12 +269,13 @@ main input{
     margin-left: 2%;
   }
   .carousel-container {
+    margin-left: -4.5rem;
     width: 350px;
     height: 1000px;
 
   }
   .search-container{
-    margin-left: -150%;
+    margin-left: -45%;
   }
   
   .prev-btn,
@@ -284,13 +285,13 @@ main input{
   }
 
   .prev-btn {
-    left: 2%;
+    left: 1%;
     
     
   }
 
   .next-btn {
-    right: 2%;
+    right: -36.5%;
   }
 
 }
