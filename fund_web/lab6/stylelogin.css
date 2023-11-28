@@ -171,7 +171,7 @@ main .adocao option{
     width: 736px;
     top: 1602px;
     left: 353px;
-    border-radius: 0px, 0px, 8px, 8px;
+    border-radius: 0px, 0px, 8px ;
 }
 .footer .Importante{
     display: flex;
@@ -311,7 +311,7 @@ nav button{
         width: auto;
         padding: 5%;
         padding-left: 10rem;
-        margin-left: 2rem;
+        margin-left: 1rem;
     }
     header h1{
         font-size: 25px;
@@ -327,29 +327,19 @@ nav button{
     footer, main{
         width: auto;
         height: auto;
-        margin-left: 32%;
-        margin-right: 8%;
+        margin-left: 30%;
+        margin-right: 9%;
         padding: 2rem;  
 
     }
     footer input, main input{
-        width: 15rem;
+        width: 18rem;
         height: 2rem;
 
     }
 
-    .conta a{
-        font-family: Archivo;
-        color: #9C98A6;
-        
-    }
-    .conta hr{
-        border:#d1ceda 1px solid ;
-
-    }
-    .conta button{
-        margin-top: 2rem;
-        width: 15rem;
+    nav button{
+        width: 18rem;
         height: 2rem;
 
     }
@@ -359,13 +349,12 @@ nav button{
         display: flex;
         flex-direction: column;
         width: auto;
-        padding: -1rem;
+        
         text-align: left;
     }
     .footer a{
         width: auto;
         height: auto;
-        
         margin-left: -20px;
         margin-top: 2rem;
         
