@@ -257,11 +257,12 @@ footer input{
     border-radius: 8px;
     border: 1px;
     background: linear-gradient(0deg, #FAFAFC, #FAFAFC);
-    border: 1px solid #E6E6F0;
+    border: 1px solid #c2c2cc;
     animation-timing-function: ease-out;
     animation-duration: 300ms;
     font-family: Archivo;
     color: #9C98A6;
+    margin-bottom: 2rem;
 
 }
 
@@ -298,10 +299,7 @@ footer h5{
 .conta button{
     font-family: Archivo;
     color: #9C98A6;
-}
-.conta hr{
-    border:#d1ceda 1px solid ;
-
+    border: 1px solid #c2c2cc;
 }
 
 .visita{
@@ -466,7 +464,6 @@ section h2{
         height: auto;
         
         margin-left: -20px;
-        padding-left: auto;
         margin-top: 2rem;
         
     }
