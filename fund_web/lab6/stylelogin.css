@@ -209,7 +209,7 @@ main .adocao option{
     padding-top: 2px;
     border: #ffffff 1px solid;
 }
-.conta button{
+nav button{
     margin-top: 2rem;
     width: 608px;
     height: 56px;
@@ -224,7 +224,7 @@ main .adocao option{
     cursor: pointer;
 }
 
-.conta button :hover {
+nav button :hover {
     color: #8257E5;
 }
 
@@ -296,7 +296,7 @@ footer h5{
 
 
 }
-.conta button{
+nav button{
     font-family: Archivo;
     color: #9C98A6;
     border: 1px solid #c2c2cc;
