@@ -72,9 +72,7 @@ header .imagem{
 header .imagem p{
     margin-left: 10rem;
 }
-header section, header nav, header footer{
-    text-decoration: none;
-}
+
 .conteiner{
     display: grid;
     grid-template-columns: 3fr 1fr;
