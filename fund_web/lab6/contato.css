@@ -150,9 +150,12 @@ section h2{
     
     }
     
-    .segunda {
+    section .visita select{
+        width: 300px;
+    }
+
+    select option{
         width: 2px;
-        
     }
     
  
