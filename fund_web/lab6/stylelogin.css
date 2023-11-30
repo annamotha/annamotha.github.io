@@ -209,7 +209,7 @@ fieldset{
     padding-top: 2px;
     border: #ffffff 1px solid;
 }
-nav {
+button {
     width: 608px;
     height: 56px;
     top: 466px;
@@ -223,15 +223,14 @@ nav {
     cursor: pointer;
     text-decoration: none;
 
-    
 }
 
-nav a {
+button a {
     color:#9C98A6;
     text-decoration: none;
-    margin-left: 15rem; 
-    margin-bottom: -22px;
-    
+    font-family: Arial;
+    font-weight: bold;
+    text-align: left;
 }
 
 footer{
@@ -350,11 +349,9 @@ nav button{
         height: 2rem;
 
     }
-
-    nav button{
+    button{
         width: 18rem;
         height: 2rem;
-
     }
     
     
