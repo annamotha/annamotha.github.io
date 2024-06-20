@@ -1,22 +1,42 @@
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px 100px;
+}
 #logo{
     text-align: left;
 }
 #logo h2{
     margin-top: -30px;
 }
-#cinza{
-    background-color: rgb(168, 179, 167);
-    text-align: left;
 
+main h2{
+    background-color: rgb(168, 179, 167);
+    justify-content: center;
+    border-radius: 5px;
+    height: 50px;
+    padding-top: 20px;
 }
-body{
+
+.historia h4{
+    margin: 50px 30px;
+    width: 400px;
+    
+}
+.text{
     display: flex;
-    flex-direction: column;
-    text-align: center;
+    flex-direction: row;
+}
+.diferenciais{
+    padding-bottom: 20px;
 }
 li{
     text-align: left;
+    margin-left: 50px;
 }
-#cinza h1{
-    color: blue;
+#cinza {
+    background-color: rgb(168, 179, 167);
+    border-radius: 5px;
+    color: rgb(23, 23, 27);
 }
