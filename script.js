@@ -1,20 +1,33 @@
-function toggleMode(){
-    const html = document.documentElement
-    html.classList.toggle("light")
+let currentIndex = 0;
 
-    //if(html.classList.contains('light')){
-      //  html.classList.remove('light')
-    //}else{
-      //  html.classList.add('light')
-   // }
-//  html.classList.toogle('light') --funciona p/ mesma coisa
-
-// imagem ------
-    const img= document.querySelector("#profile img")
-
-    if(html.classList.contains('light')) {
-        img.setAttribute('src','avatar.png')
-    }else{
-        img.setAttribute('src','avatar.png')
+function showSlide(index) {
+    const slides = document.querySelectorAll('.carousel-item');
+    if (index >= slides.length) {
+        currentIndex = 0;
+    } else if (index < 0) {
+        currentIndex = slides.length - 1;
+    } else {
+        currentIndex = index;
     }
+    const offset = -currentIndex * 100;
+    document.querySelector('.carousel-inner').style.transform = `translateX(${offset}%)`;
+}
+
+function nextSlide() {
+    showSlide(currentIndex + 1);
+}
+
+function prevSlide() {
+    showSlide(currentIndex - 1);
+}
+
+// Inicializa o carrossel na primeira imagem
+showSlide(currentIndex);
+
+function copyEmail() {
+    const emailInput = document.getElementById('emailInput');
+    emailInput.select();
+    emailInput.setSelectionRange(0, 99999); // Para dispositivos móveis
+    document.execCommand('copy');
+    alert('Email copiado: ' + emailInput.value);
 }
