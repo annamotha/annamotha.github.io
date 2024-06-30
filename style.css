@@ -93,7 +93,6 @@ main {
     width: 100%;
     box-sizing: border-box;
 
-    
     #about {
         display: flex;
         flex-direction: row;
@@ -132,48 +131,45 @@ main {
         }
     }
 
-    #projects{
+    #projects {
         padding: 20px 30px;
+        text-align: left; 
     }
-
-    .projects{
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    
+    .projects {
+        width: 90%; 
+        margin: 0 auto; /* Centraliza horizontalmente */
     }
+    
     .carousel {
-        position: relative;
-        width: 80%;
-        max-width: 600px;
         overflow: hidden;
-        text-align: center;
-        border-radius: 50px;
-        box-shadow: 20px 20px 60px #bebebe,
-               -20px -20px 60px #ffffff;
+        border-radius: 20px;
+        position: relative;
     }
     
     .carousel-inner {
         display: flex;
         transition: transform 0.5s ease-in-out;
+        width: 100%; /* Garante que o contêiner interno ocupe todo o espaço disponível */
     }
     
     .carousel-item {
-        min-width: 100%;
+        flex: 0 0 calc(100% / 3); 
         box-sizing: border-box;
+        padding: 20px;
+        text-align: center;
     }
     
     .carousel-item img {
-        width: 100%;
-        display: block;
+        max-width: 100%; /* Imagens responsivas dentro dos itens */
+        height: auto;
         border-radius: 10px;
     }
     
     .carousel-control {
         position: absolute;
         top: 50%;
-        transform: translateY(-50%);
+        transform: translateY(-15%);
         background-color: rgba(0, 0, 0, 0.5);
         border: none;
         padding: 10px;
@@ -187,12 +183,13 @@ main {
         left: 10px;
         transition: all .2s;
     }
-    .carousel-control.prev:hover{
+    
+    .carousel-control.prev:hover {
         background-color: #3EB489;
         transform: translateY(-2px);
-        box-shadow: 0 10px 20px rgba(27, 27, 27, .5);
-        
+        box-shadow: 0 10px 5px rgba(27, 27, 27, .5);
     }
+    
     .carousel-control.prev:active {
         transform: translateY(2px);
     }
@@ -201,14 +198,19 @@ main {
         right: 10px;
         transition: all .2s;
     }
-    .carousel-control.next:hover{
+    
+    .carousel-control.next:hover {
         background-color: #3EB489;
         transform: translateY(-2px);
         box-shadow: 0 10px 20px rgba(27, 27, 27, .5);
     }
+    
     .carousel-control.next:active {
         transform: translateY(2px);
     }
+    
+    
+    
 }
 
 footer {
