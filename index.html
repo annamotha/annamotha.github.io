@@ -8,8 +8,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Archivo:wght@700&family=Cormorant+Upright:wght@300;400;500;600;700&family=Fira+Sans&family=Inter:wght@400;500&family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
 
 </head>
+
 <body>
     <header>
         <ul>
@@ -20,16 +23,17 @@
         </ul>
     </header>
     <section id="eu">
-        <div class="img">
+        <div class="img" data-aos="fade-right" data-aos-duration="3000">
             <img src="./euGrande.png" alt="">
         </div>
-        <div class="apresentacao">
-            <h1>Hi! I'm Anna, and 20 years old and 
+        <div class="apresentacao" data-aos="fade-left" data-aos-duration="3000">
+            <h1>Hi! I'm Anna, and I'm 20 years old.
             <div>I'm a full-stack developer!</div>    </h1>
         </div>
     </section>
     <main> 
-        <section id="about">
+        <section id="about" data-aos="fade-up"
+        data-aos-duration="3000">
             <article>
                 <h2>About Me</h2>
                 <p>Hello! I'm Anna, a student of Information Systems at CEFET-RJ, currently in my 4th semester. Throughout my academic journey, I have developed a solid set of skills in various areas of technology, with a special focus on development.</p>
@@ -53,7 +57,8 @@
 
         <section id="technology">
             <h2>Technology</h2>
-            <nav>
+            <nav data-aos="fade-up"
+            data-aos-duration="2000">
                 <div class="conteiner">
                     <h4>Language</h4>   
                     <img src="java.png" alt="java">
@@ -70,7 +75,6 @@
                 <div class="conteiner">
                     <h4>Data storage and management</h4>    
                     <div class="linguagens">
-                        <img src="github.png" alt="github">
                         <img src="mysql.png" alt="mysql">
                         <img src="./database.png" alt="database">     
                     </div>
@@ -94,6 +98,7 @@
                         <div class="carousel-item">             
                             <a href="./Links/index.html" target="_blank">
                                 <img src="links.png" alt="Projeto1">
+                                <p>This project is to place links to be forwarded to another website, often used in Instagram bios! </p>
                             </a>    
                         </div>
                         <div class="carousel-item">             
@@ -183,5 +188,10 @@
         
     </footer>
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    
 </body>
 </html>

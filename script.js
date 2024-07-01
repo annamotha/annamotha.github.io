@@ -31,3 +31,27 @@ function copyEmail() {
     document.execCommand('copy');
     alert('Email copiado: ' + emailInput.value);
 }
+
+function initScrollAnimations() {
+    const elementsToAnimate = document.querySelectorAll('.animate-from-right, .animate-from-left, .animate-from-top, .animate-from-bottom');
+  
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+  
+    elementsToAnimate.forEach(element => {
+      observer.observe(element);
+    });
+  }
+  
+// Chame a função para inicializar as animações quando o conteúdo estiver carregado
+document.addEventListener('DOMContentLoaded', () => {
+initScrollAnimations();
+});
+  
+  
