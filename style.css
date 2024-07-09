@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body{
     background-color: rgb(212, 219, 224);
     font-family: "Arapey", serif;
@@ -28,6 +31,7 @@ header{
         flex-direction: row;
         padding: 0px 30px;
         text-decoration: none;
+        
     }
     a{
         text-decoration: none;
@@ -35,13 +39,17 @@ header{
         font-weight:600;
         font-size: 20px;
         transition: all ease-in-out 0.3s;
+        
+        
     }
     a:hover {
         color: #3EB489; /* Verde menta */
         transform: translateY(-3px);
     }
+    
 
 } 
+
 #eu{
     display: flex;
     flex-direction: row;  
@@ -125,50 +133,98 @@ main {
     }
     
     #projects {
-        padding: 20px 30px;
+        margin: 20px 30px;
         text-align: left; 
-    }
-    
-    .projects {
-        width: 90%; 
-        margin: 0 auto; /* Centraliza horizontalmente */
     }
     
     .carousel {
         overflow: hidden;
         border-radius: 20px;
-        position: relative;
+        position:relative;
+        width: 90%; 
+        margin: 0 auto; /* Centraliza horizontalmente */
     }
+    
     
     .carousel-inner {
         display: flex;
-        transition: transform 0.5s ease-in-out;
-        width: 100%; /* Garante que o contêiner interno ocupe todo o espaço disponível */
+        transition: transform 2s ease-in-out;
+        width: 92%; /* Garante que o contêiner interno ocupe todo o espaço disponível */
+        
     }
-    
     .carousel-item {
         flex: 0 0 calc(100% / 3); 
         box-sizing: border-box;
-        padding: 20px;
+        padding: 5px;
         text-align: center;
-        a{
-            text-decoration: none;
-            color: #333333;
-            img {
-                max-width: 100%; /* Imagens responsivas dentro dos itens */
-                height: auto;
-                border-radius: 10px;
-            }
-            p{
-                text-decoration: none;
-                
-            }
+        border-radius: 20px;
+        margin: 5px;
+        overflow: hidden;
+        perspective: 1000px;
+        position: relative;
+        transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        .a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+        
+        img {
+            max-width: 100%; /* Imagens responsivas dentro dos itens */
+            height: auto;
+            border-radius: 20px;
+            transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        
+        }
 
-        }
-        a:hover{
-            transform: translateY(-3px);
-        }
-    }    
+        
+        
+    }
+    .carousel-item .card__content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.9);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        box-sizing: border-box;
+        backface-visibility: hidden;
+        transform: rotateY(180deg);
+        transition: transform 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+    
+    .carousel-item:hover img {
+        transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+    }
+    
+    .carousel-item:hover .card__content {
+        transform: rotateX(0deg);
+    }
+    
+    .card__title {
+        margin: 0;
+        font-size: 24px;
+        color: #333;
+        font-weight: 700;
+    }
+    
+    .card__description {
+        margin: 10px 0 0;
+        font-size: 14px;
+        color: #777;
+        line-height: 1.4;
+    }
+    
+     
     .carousel-control {
         position: absolute;
         top: 50%;
@@ -382,7 +438,6 @@ footer {
 @media (max-width: 768px) {
     body {
       font-size: 18px;
-      margin-left: 0;
 
     }
     #eu {
@@ -427,6 +482,7 @@ footer {
         flex-direction: column;
         padding: 50px 0 0 0;
         text-align: center;
+
     }
 
     #eu .img img {
@@ -435,11 +491,12 @@ footer {
     }
 
     #eu .apresentacao {
-        margin: 0;
+        margin: -70px 0 0 30px;
         height: 5px;
         width: 300px;
         padding-left: 15px;
         font-size: 12.5px;
+        
         div{
             padding: 0;
         }
@@ -458,6 +515,9 @@ footer {
         text-align: center;
         nav{
             flex-direction: column;
+            .conteiner h4{
+                padding-left: 20px;
+            }   
         }
     }
 
@@ -479,11 +539,12 @@ footer {
     footer .email {
         flex-direction: column;
         align-items: center;
-        padding: 10px;
+        padding: 0;
+        margin: 0;
     }
 
     footer .email input {
-        width: 100%;
+        width: 212px;
     }
 
     footer .email button {
