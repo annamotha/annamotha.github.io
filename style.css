@@ -116,7 +116,7 @@ main {
             justify-content: center;
         }
         .conteiner{
-            padding: 0px 40px;
+            padding: 0px 20px;
             animation: fromBottom 2.5s forwards;
             .visible {
                 opacity: 1;
@@ -434,6 +434,7 @@ footer {
           }
     }
 }
+
 /* Estilo para tablets */
 @media (max-width: 768px) {
     body {
@@ -455,12 +456,17 @@ footer {
         nav{
             display: flex;
             flex-direction: column;
+            
             .conteiner h4{
-                padding-left: 200px;
+                padding-left: 240px;
             }   
         }
     }
+    
+    
+    
 }
+
 
 /* Media Queries para Responsividade */
 @media (max-width: 465px) {

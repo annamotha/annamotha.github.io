@@ -49,9 +49,3 @@ function initScrollAnimations() {
     });
   }
   
-// Chame a função para inicializar as animações quando o conteúdo estiver carregado
-document.addEventListener('DOMContentLoaded', () => {
-initScrollAnimations();
-});
-  
-  
