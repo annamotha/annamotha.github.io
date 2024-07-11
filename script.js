@@ -24,6 +24,52 @@ function prevSlide() {
 // Inicializa o carrossel na primeira imagem
 showSlide(currentIndex);
 
+// Função para adicionar eventos de toque
+function addTouchEvents() {
+    const carousel = document.querySelector('.carousel-inner');
+    let startX, currentX, diffX, isDragging = false;
+
+    carousel.addEventListener('touchstart', (e) => {
+        startX = e.touches[0].clientX;
+        isDragging = true;
+    });
+
+    carousel.addEventListener('touchmove', (e) => {
+        if (!isDragging) return;
+        currentX = e.touches[0].clientX;
+        diffX = currentX - startX;
+        carousel.style.transform = `translateX(${diffX}px)`;
+    });
+
+    carousel.addEventListener('touchend', (e) => {
+        isDragging = false;
+        const threshold = 100; // Valor em pixels para considerar um swipe
+        if (Math.abs(diffX) > threshold) {
+            if (diffX > 0) {
+                // Swipe para a direita
+                prevSlide();
+            } else {
+                // Swipe para a esquerda
+                nextSlide();
+            }
+        }
+        carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+    });
+}
+
+// Verifica a largura da tela e adiciona eventos de toque se for responsivo
+function checkResponsive() {
+    if (window.innerWidth <= 465) {
+        addTouchEvents();
+    }
+}
+
+// Chama a função ao carregar a página e ao redimensionar a janela
+window.addEventListener('load', checkResponsive);
+window.addEventListener('resize', checkResponsive);
+
+//------------------
+
 function copyEmail() {
     const emailInput = document.getElementById('emailInput');
     emailInput.select();
@@ -48,4 +94,8 @@ function initScrollAnimations() {
       observer.observe(element);
     });
   }
-  
+  const openAndCloseMenu = document.getElementById("openAndCloseMenu")
+
+  openAndCloseMenu.addEventListener('click', ()=>{
+    document.getElementById("menu").classList.toggle("displaynone")
+  })
