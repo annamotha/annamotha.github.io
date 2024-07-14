@@ -504,12 +504,16 @@ footer {
     padding: 30px 20px;
     width: 100%;
     z-index: 1000;
+    justify-content: left;
   }
   
   header ul {
     flex-direction: column;
     margin: 0;
     position: absolute;
+    padding: 20px 20px 10px 1px;
+    background-color: rgb(212, 219, 224);
+    border-radius: 10px;
   }
 
   header li {
