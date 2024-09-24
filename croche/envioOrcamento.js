@@ -13,7 +13,7 @@ function enviarOrcamento() {
     const preco = document.getElementById('preco').textContent || "preço não definido";
 
     // Cria a mensagem
-    const mensagem = `Olá, estou interessado no orçamento!\n\n` +
+    const mensagem = `Olá, estou interessado no Amigurumi!\n\n` +
                      `Nome: ${nome}\n` +
                      `Produto: ${produto}\n` +
                      `Tamanho: ${tamanho}\n` +
