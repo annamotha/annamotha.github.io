@@ -62,7 +62,7 @@ h1 {
     color: var(--primary-text-color);
 }
 
-form {
+.form {
     display: flex;
     justify-content: center; 
 }
@@ -114,7 +114,7 @@ p {
     color: var(--secondary-text-color);
 }
 
-.input:focus, #linha:focus, #select:focus, .inputt:focus {
+.input:focus, #linha:focus, #select:focus{
     background-color: white;
     transform: scale(1.05);
     box-shadow: var(--hover-shadow);
@@ -188,7 +188,7 @@ footer {
         padding: 20px;
     }
 
-    form {
+    .form {
         flex-direction: column;
         padding-right: 0;
     }
@@ -230,7 +230,7 @@ footer {
         margin-left: 0;
     }
 
-    form {
+    .form {
         display: flex;
         flex-direction: column;
     }
