@@ -1,0 +1,250 @@
+:root {
+    --primary-bg-color: #E4E2DD;
+    --primary-text-color: #4c4848;
+    --secondary-text-color: #757575;
+    --accent-color: #ccc;
+    --hover-shadow: 13px 13px 100px #969696, -13px -13px 100px #ffffff;
+}
+
+body {
+    background-image: url(https://i.pinimg.com/564x/1b/91/6d/1b916d50eabf4aaaa19ee4d225810855.jpg);
+    padding: 0 150px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    background-color: var(--primary-bg-color);
+    border-radius: 50px;
+    margin: 50px auto;
+    display: flex;
+    padding: 20px;
+    max-width: 100%; /* Tornando o main flexível */
+    width: 100%; /* Adicionando largura 100% */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; 
+}
+
+* {
+    box-sizing: border-box; /* Garante que padding e bordas sejam contados na largura */
+}
+
+.left {
+    text-align: center;
+    border-right: 2px solid rgb(106, 104, 104);
+    padding-right: 30px;
+    box-sizing: border-box;
+    flex-shrink: 0; /* Mantém a largura definida para evitar que o flex a redimensione */
+}
+
+#logo {
+    padding: 20px;
+}
+
+#Informacao p {
+    color: rgb(188, 191, 195);
+    margin: 20px 45px;
+    width: 250px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.rigth {
+    text-align: center;
+    flex-grow: 1; /* Faz com que a seção direita cresça conforme necessário */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 36px;
+    margin-top: 0;
+    color: var(--primary-text-color);
+}
+
+form {
+    display: flex;
+    justify-content: center; 
+}
+
+#button {
+    margin: 10px;
+    max-width: 90%;
+}
+
+.diretta {
+    text-align: left;
+}
+.esquerda{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.input, #linha{
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 15px 20px;
+    background-color: var(--accent-color);
+    box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: 300ms ease-in-out;
+    width: 100%; /* Garantindo largura total */
+    max-width: 300px;
+    margin: 10px 0 60px 0px;
+    color: var(--secondary-text-color);
+}
+
+#select {
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 15px 30px 15px 10px;
+    background-color: var(--accent-color);
+    box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: 300ms ease-in-out;
+    width: 100%;
+    max-width: 300px;
+    margin: 10px 0 60px 0px;
+    color: var(--secondary-text-color);
+}
+
+p {
+    margin-top: -30px;
+    color: var(--secondary-text-color);
+}
+
+.input:focus, #linha:focus, #select:focus, .inputt:focus {
+    background-color: white;
+    transform: scale(1.05);
+    box-shadow: var(--hover-shadow);
+}
+
+#enviar {
+    text-align: center;
+}
+
+#linha {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0 60px 0px;
+    font-size: 14px;
+}
+
+#submit {
+    margin-left: 15px;
+    text-align: center;
+}
+
+/* Esconde o resultado inicialmente */
+.oculto {
+    display: none;
+}
+
+/* Formata o texto da resposta */
+#preco {
+    color: black; /* O texto da resposta será exibido em preto */
+    font-weight: bold; /* Adiciona um peso maior ao texto */
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+/* Ajuste para telas menores (responsividade) */
+@media screen and (max-width: 1366px) {
+    body {
+        padding: 0 50px;
+    }
+
+    main {
+        flex-direction: column;
+        padding: 10px;
+    }
+    #Informacao p {
+        margin: -5px 0 20px 0;
+        text-align: center;
+        width: 100%;
+    }
+    #button {
+        max-width: 100%;
+    }
+
+    .left {
+        border-right: none;
+        border-bottom: 2px solid rgb(106, 104, 104);
+        padding-right: 0;
+    }
+
+    .rigth {
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    form {
+        flex-direction: column;
+        padding-right: 0;
+    }
+
+    .input, #linha {
+        max-width: 100%;
+    }
+
+    #select {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    #Informacao p {
+        margin: -5px 0 20px 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    .left {
+        padding-right: 0;
+    }
+
+    .rigth {
+        margin-left: 0;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input, #select {
+        width: 100%;
+    }
+    /* #select{
+        width: 340px;
+        height: 50px;      
+        color: var(--secondary-text-color);
+    }  */   
+
+    h1 {
+        font-size: 24px;
+    }
+}

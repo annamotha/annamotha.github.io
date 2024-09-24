@@ -1,0 +1,369 @@
+html{
+    scroll-behavior: smooth;
+}
+.cormorant-upright-medium {
+    font-family: "Cormorant Upright", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E4E2DD;
+    
+}
+header {
+    background-color: #E4E2DD;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center; /* Centraliza verticalmente os itens no header */
+    height: 90px;
+}
+header img{
+    width: 200px;
+}
+
+nav {
+    position: relative;
+}
+
+#menu-toggle {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+}
+
+li {
+    color: #333;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: #333;
+}
+ul li:hover{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-color: #333;
+    color: #333;
+}
+
+/* #primeiroconteiner{
+    
+} */
+#capa img{
+    width: 100%;
+    height: auto;
+    display: block; 
+}
+#pc {
+    margin-top: -500px;
+    margin-bottom: 150px;
+    color: #333;
+    text-align: center;
+}
+#pc h2{
+    font-family: "Cormorant Upright", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+    
+}
+#pc p{
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+#pc a {
+    padding: 8px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    background-color:#333;
+    color: #E4E2DD;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.5s ease;
+    text-decoration: none;
+  }
+
+#pc a:hover {
+letter-spacing: 3px;
+background-color: #E4E2DD;
+color: #2b2828;
+box-shadow:#2b2828 0px 7px 29px 0px;
+}
+
+#pc a:active {
+letter-spacing: 3px;
+background-color: hsl(261deg 80% 48%);
+color: hsl(0, 0%, 100%);
+box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+transform: translateY(10px);
+transition: 100ms;
+}
+
+
+#segundoconteiner{
+    background-color: #E4E2DD;
+    color: #333;
+    text-align: center;    
+}
+#imagens{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+#conjunto {
+    width: 400px;
+    height: 450px;
+    margin: 20px;
+    background: rgb(236, 236, 236);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+#conjunto img{
+    margin-top: 40px;
+    width: 300px;
+}
+#terceiroconteiner{
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content:space-around;
+    margin: 0px 100px;
+    padding: 20px;
+    border-radius: 30px;
+}
+#texto{
+    width: 500px;
+    text-align: center;
+    margin: 130px 200px 50px 200px;
+
+}
+#texto a {
+    padding: 8px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    background-color:#a9a69e;
+    color:#333;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.5s ease;
+    text-decoration: none;
+  }
+
+#texto a:hover {
+letter-spacing: 3px;
+background-color:#333;
+color: #a9a69e;
+box-shadow:#a9a69e 0px 7px 29px 0px;
+}
+#imgmaior{
+    margin: 50px;
+}
+#imgmaior img{
+    width: 350px;   
+}
+
+#quartoconteiner{
+    background-color: #E4E2DD;
+    text-align: center;
+    padding: 10px;
+}
+#imagensinsta{
+    display: flex;
+    justify-content:center;
+}   
+#imge{  
+    margin: 20px;
+}
+#imge img {
+    border: 2px;
+    width: 400px;
+    border-radius: 10px;
+}
+#imagensinsta #imge {
+    transition: all .4s; /* Aplica a transição ao estado inicial */
+}
+
+#imagensinsta:hover #imge:not(:hover) {
+    opacity: .7;
+    transform: scale(.85);
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #E4E2DD;
+    
+}
+ul {
+    list-style: none;
+}
+  
+.insta {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.insta .icon-content {
+margin: 0 10px;
+background-color: #E4E2DD;
+}
+
+.insta .icon-content a {
+position: relative;
+overflow: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+color:#2b2828;
+background-color:#a9a69e;
+transition: all 0.3s ease-in-out;
+}
+.insta .icon-content a:hover {
+box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
+}
+.insta .icon-content a svg {
+position: relative;
+z-index: 1;
+width: 30px;
+height: 30px;
+}
+.insta .icon-content a:hover {
+color: white;
+}
+.insta .icon-content a .filled {
+position: absolute;
+top: auto;
+bottom: 0;
+width: 100%;
+height: 0;
+background-color: #000;
+transition: all 0.3s ease-in-out;
+}
+.insta .icon-content a:hover .filled {
+height: 100%;
+}
+.insta .icon-content a[data-social="instagram"] .filled{
+background: linear-gradient(
+    45deg,
+    #405de6,
+    #5b51db,
+    #b33ab4,
+    #c135b4,
+    #e1306c,
+    #fd1f1f
+);
+}
+.insta .icon-content a[data-social="youtube"] .filled{
+background-color: #ff0000;
+}
+  
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+    #conjunto {
+        width: 250px;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    header{
+        padding: 5px;
+    }
+    #menu-toggle {
+        display: block;
+    }
+
+    ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%; /* Posiciona o menu abaixo do header */
+        width: 100%;
+        text-align: center;
+
+    }
+
+    ul li {
+        margin-bottom: 0;  
+        background-color: none;      
+    }
+    ul li a{
+        text-decoration: none;
+    }
+
+    ul.show {
+        display: flex;
+    }
+    #imagens {
+        flex-direction: column; /* Muda a direção dos itens para coluna em telas pequenas */
+        align-items: center;
+    }
+
+    #conjunto {
+        width: 80%; /* Ajusta a largura para ocupar 80% da tela em dispositivos móveis */
+        height: auto;
+        background-color: #fbfaf8;
+    }
+    #terceiroconteiner{
+        margin-top: -10px;
+        flex-direction: column; /* Muda a direção dos itens para coluna em telas pequenas */
+        align-items: center;
+    }
+    #texto{
+        margin-top: 50px;
+    }
+    #imgmaior img{
+        width: 100%;
+    }
+    #imagensinsta{
+        flex-direction: column; /* Muda a direção dos itens para coluna em telas pequenas */
+        align-items: center;
+    }   
+    #imge img{
+        width: 100%;
+    }
+          
+  
+  
+}
+
+
+@media (max-width: 480px) {
+    #conjunto {
+        width: 100%; /* Ajusta a largura para ocupar 100% da tela em dispositivos móveis muito pequenos */
+        height: auto;
+        margin: 10px 0; /* Reduz as margens para economizar espaço */
+    }
+}
