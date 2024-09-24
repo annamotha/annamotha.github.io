@@ -75,13 +75,12 @@ h1 {
 .diretta {
     text-align: left;
 }
-.esquerda{
+.esquerda {
     display: flex;
     flex-direction: column;
-    
 }
 
-.input, #linha{
+.input, #linha {
     border: none;
     outline: none;
     border-radius: 15px;
@@ -94,6 +93,7 @@ h1 {
     margin: 10px 0 60px 0px;
     color: var(--secondary-text-color);
 }
+
 
 #select {
     border: none;
@@ -114,7 +114,7 @@ p {
     color: var(--secondary-text-color);
 }
 
-.input:focus, #linha:focus, #select:focus{
+.input:focus, #linha:focus, #select:focus {
     background-color: white;
     transform: scale(1.05);
     box-shadow: var(--hover-shadow);
@@ -168,11 +168,13 @@ footer {
         flex-direction: column;
         padding: 10px;
     }
+    
     #Informacao p {
         margin: -5px 0 20px 0;
         text-align: center;
         width: 100%;
     }
+    
     #button {
         max-width: 100%;
     }
@@ -200,6 +202,9 @@ footer {
     #select {
         width: 100%;
         max-width: 100%;
+        font-size: 16px; /* Garante que o tamanho da fonte seja suficiente */
+        color: #969696;
+        box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
     }
 
     h1 {
@@ -237,12 +242,15 @@ footer {
 
     .input, #select {
         width: 100%;
+        font-size: 16px; /* Aumenta o tamanho da fonte para facilitar a leitura */
+        
     }
-    /* #select{
-        width: 340px;
-        height: 50px;      
-        color: var(--secondary-text-color);
-    }  */   
+
+    #select {
+        height: 45px;
+        border-radius: 15px;
+        box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
+    }  
 
     h1 {
         font-size: 24px;
