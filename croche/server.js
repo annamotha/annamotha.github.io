@@ -46,13 +46,13 @@ function calcularValor(tamanho, linha, quantidadeDeCores) {
         coresPeso = 10;
     } else if (tamanho === 'mini') {
         valor = 1;
-        coresPeso = 1;
+        coresPeso = 2;
     } else if (tamanho === 'medio'){
         valor = 4;
         coresPeso = 10;
     }else { //pequeno
         valor = 2;
-        coresPeso = 5;
+        coresPeso = 6;
     }
     const linhaEscolhida = calcularLinhaEscolhida(linha);
     if(quantidadeDeCores < 2){
